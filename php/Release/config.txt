@@ -1,0 +1,6 @@
+#txj
+terminalId=1403020860
+starttime=2015-05-04 00:00:00
+endtime=2015-05-12 16:55:16
+type=10-1
+directory=d:\\data

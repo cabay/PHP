@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>PostgreSQL内部用数据查询平台</title>
+<link href="css/css.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="css/jquery-1.4.2.min.js"></script>
+<!-- IE下消除点击图片文字后出现的虚线框代码 -->
+<style type="text/css">
+a {blr:expression(this.onFocus=this.blur())}
+</style>
+ 
+<!-- Firefox下消除点击图片文字后出现的虚线框代码 -->
+<script>
+
+
+$(document).ready(function(){
+	var authority=$("#authority").val();
+	// alert("权限："+authority);
+	//	驾驶行为查询
+	if(authority&0x01){
+		$("#dbdiv").bind("click",function (){redirect('showBehavior.php');});
+	}else{
+		$("#dbdiv").bind("click",function (){warn();});
+	}
+	//	商用车所用批量百公里油耗查询
+	if(authority&0x10){
+		$("#mwdiv").bind("click",function (){redirect('importCSV/index.php');});
+	}else{
+		$("#mwdiv").bind("click",function (){warn();});
+	}
+	//	车辆运行报告
+	if(authority&0x04){
+		$("#drdiv").bind("click",function (){redirect('runReport_car.php');});
+	}else{
+		$("#drdiv").bind("click",function (){warn();});
+	}
+	
+	//	行车记录查询无限制
+	if(authority&0x04){
+		$("#drclouddiv").bind("click",function (){redirect('showCarRecordInfo.php');});
+	}else{
+		$("#drclouddiv").bind("click",function (){warn();});
+	}
+	//	行车记录查询小于6W
+	if(authority&0x10){
+		$("#bddiv").bind("click",function (){redirect('CARrunDAte.html');});
+	}else{
+		$("#bddiv").bind("click",function (){warn();});
+	}
+	//	车辆配置查询
+	if(authority&0x10){
+		$("#dsdiv").bind("click",function (){redirect('carSearch.php');});
+	}else{
+		$("#dsdiv").bind("click",function (){warn();});
+	}
+	//	车辆速度区间分布查询
+	if(authority&0x10){
+		$("#memcdiv").bind("click",function (){redirect('cArSpeed.php');});
+	}else{
+		$("#memcdiv").bind("click",function (){warn();});
+	}
+	//	VIN码查询
+	if(authority&0x10){
+		$("#taskdfdiv").bind("click",function (){redirect('carVIN.php');});
+	}else{
+		$("#taskdfdiv").bind("click",function (){warn();});
+	}
+
+});
+function redirect(url){
+	//window.open (url,'newwindow','height=100,width=400,top=0,left=0,toolbar=no,menubar=no,scrollbars=no, resizable=no,location=no, status=no');
+	window.open(url);
+}
+function warn(){
+	alert("该用户没有此操作权限请和管理员联系");
+}
+</script>
+
+<style type="text/css" media="screen">
+body {behavior:url('admin/csshover.htc');}
+</style>
+</head>
+<body>
+<input type="hidden" value="53" id="authority"/>
+<script type="text/javascript" src="css/WdatePicker.js"></script>
+<!--顶部logo部分-->
+<div class="top">
+  <center> PostgreSQL内部用数据查询平台</center>
+</div>
+<!--正文开始-->
+<div class="main">
+<div class="db">
+	  <div class="left"  id="dbdiv">
+	    <p style="font-size:24px; padding-bottom:15px;">不良驾驶行为查询</p>
+	    <p>查询司机不良驾驶行为，急加速、急减速、怠速等</p>     
+	  </div>
+	  <div class="dc" id="dsdiv">
+	  	<p style="font-size:24px; padding-bottom:15px;">车辆配置查询</p>
+	    <p>用终端号或VIN码查询车辆配置 </p>
+	  </div>
+	 <div class="three" id="taskdfdiv">
+	 	<p style="font-size:22px; padding-bottom:15px;">终端号属性查询</p>
+		<p style="font-size:14px">终端号相关属性查询</p> 
+	 </div>
+</div>
+	<div class="middle">
+	   <div class="one"  id="mwdiv">
+		  <p style="font-size:24px; padding-bottom:15px;">百公里油气耗查询</p>
+		  <p>根据终端号批量查询车辆里程、油耗数据及百公里油耗</p>
+	   </div>		
+	   <div class="two" id="memcdiv">
+		  <p style="font-size:24px; padding-bottom:15px;">速度区间分布查询</p>
+		  <p>对行车速度每个区间进行统计，结合车型配置，求出车辆运营的经济车速</p>
+	   </div>
+		  <div class="three"><a href="#"></a></div>
+	</div>
+	  
+	  <!--右边开始-->
+	<div class="right2">
+	     <div class="one"  id="drdiv">
+	     <p style="font-size:22px; padding-bottom:15px;">车辆运营数据查询</p>
+		 <p>查询车辆里程、油耗、怠速时长、发动机运行时长等</p>
+		 </div>
+		 <div class="two"  id="drclouddiv">
+	     <p style="font-size:24px; padding-bottom:15px;">行车记录查询</p>
+		 <p>从天行健云端查询行车记录信息（突破6W条导出限制）</p>
+		 </div>	
+		<div class="three" id="bddiv">
+			<p style="font-size:24px; padding-bottom:15px;">行车记录查询</p>
+			<p>从天行健云端查询行车记录信息（<=6W条）</p> 
+	 	</div>
+	</div>
+
+</div>
+
+ <div class="bottom" >   <p align="center"> 智能服务研究所</p>
+  </div>
+  
+
+</body>
+</html>
+

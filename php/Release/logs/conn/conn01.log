@@ -1,0 +1,23 @@
+16:54:23.713 -> begin date: 2015-05-12, thread ID: 0x98B4
+16:54:23.717 -> [98B4] [DEBUG ] TCCConnObj::TCCConnObj EventObj:0x01750440, AHost:(null), APort:0, APass:(null), RGObj:0x0183FD90, FDevIDS:0x01764B70, FLock:0x01747FE8
+16:54:23.718 -> [98B4] [DEBUG ] TCCConnObj::SetStr, Attrib:2, AValue:172.16.9.6, Ret:1
+16:54:23.718 -> [98B4] [DEBUG ] TCCConnObj::SetInt, Attrib:3, Value:22230, Ret:1
+16:54:23.718 -> [98B4] [DEBUG ] TCCConnObj::SetStr, Attrib:4, AValue:gbosRouteGateway, Ret:1
+16:54:23.718 -> [98B4] [DEBUG ] TCCConnObj::Open, State:Inactive
+16:54:23.729 -> [98B4] [DEBUG ] TCCConnObj::Open ret:1
+16:54:23.730 -> [98B4] [DEBUG ] TCCConnObj::AddQuery, QryObj:0x017C1658, Ret:1
+16:54:27.552 -> [98B4] [DEBUG ] TCCConnObj::DeleteQuery, QryObj:0x017C1658
+16:54:27.552 -> [98B4] [DEBUG ] Begin TCCConnObj::Close ANeedWait:False, State:Opened
+16:54:27.552 -> [98B4] [DEBUG ] Begin FCCRGObj Close.... 
+16:54:27.552 -> [98B4] [DEBUG ] TCCConnObj::_RGDisconnect AConnObj:0x01060F10
+16:54:27.552 -> [98B4] [DEBUG ]  TCCConnObj::DoDisconnect, FState:Closing
+16:54:27.552 -> [98B4] [DEBUG ] TCCConnObj::DoDisconnect
+16:54:27.552 -> [98B4] [DEBUG ] End FCCRGObj Close.... 
+16:54:27.552 -> [98B4] [DEBUG ] Begin Wait Ref:0 Close.... 
+16:54:27.553 -> [98B4] [DEBUG ] End Wait Ref:0 Close.... 
+16:54:27.553 -> [98B4] [DEBUG ] TCCConnObj::DoClose, RefCount:0, ANeedClose:True
+16:54:27.553 -> [98B4] [DEBUG ] End TCCConnObj::Close , State:Inactive
+16:54:27.553 -> [98B4] [DEBUG ] Begin TCCConnObj::~TCCConnObj  RGObj:0x0183FD90, FDevIDS:0x01764B70, FLock:0x01747FE8
+16:54:27.553 -> [98B4] [DEBUG ] Begin TCCConnObj::Close ANeedWait:True, State:Inactive
+16:54:27.553 -> [98B4] [DEBUG ] End TCCConnObj::Close , State:Inactive
+16:54:27.553 -> [98B4] [DEBUG ] End TCCConnObj::~TCCConnObj

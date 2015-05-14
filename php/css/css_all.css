@@ -1,0 +1,102 @@
+* {
+	margin: 0px;padding: 0px;list-style-type: none;
+}
+body {
+	font-family: "Î¢ÈíÑÅºÚ";font-size: 16px;line-height: 25px;color: #FFF;text-decoration: none;width: 858px;list-style-type: none;background-color: #FFF;margin: 0px auto;padding: 0px;
+}
+li {
+	list-style-type: none;
+}
+ol {
+	list-style-type: none;
+}
+ul {
+	list-style-type: none;
+}
+img {
+	border: 0px;
+}
+.clear {
+	clear: both;
+}
+.top {
+	height: 30px;width: 858px;padding: 0px;font-family: "Î¢ÈíÑÅºÚ";font-size: 30px;color: #000;text-decoration: none;
+	margin-top:10px;
+}
+.main {
+	width: 858px;margin: 25px auto 0px auto;height: 390px;padding: 0px;overflow:hidden; padding-bottom:20px;
+}
+.main .db{
+	float: left;height: 385px;width: 222px;
+}
+.main .db .left {
+	padding: 0px;height: 80px;width: 222px;background-color: #0062ac;display: block; padding:20px 30px; line-height:30px; cursor:pointer; overflow:hidden
+}
+.main .db .left:hover {
+	padding: 0px;height: 80px;width: 222px;background-color: #003156;display: block; padding:20px 30px; line-height:30px; cursor:pointer; overflow:hidden
+}
+.main .db .dc {
+	padding: 0px;height: 80px;width: 222px;background-color: #8d3865;display: block; margin: 13px 0px 0px 0px;padding:20px 30px 20px 30px; line-height:30px; cursor:pointer; overflow:hidden
+}
+.main .db .dc:hover {
+	padding: 0px;height: 80px;width: 222px;background-color: #ae17aa;display: block;margin: 13px 0px 0px 0px; padding:20px 30px; line-height:30px; cursor:pointer; overflow:hidden
+}
+.main .db .task {
+	padding: 0px;height: 96px;width: 222px;background-color: #0062ac;display: block; margin: 13px 0px 0px 0px;padding:20px 30px 20px 30px; line-height:30px; cursor:pointer; overflow:hidden
+}
+.main .db .task:hover {
+	padding: 0px;height: 96px;width: 222px;background-color: #003156;display: block;margin: 13px 0px 0px 0px; padding:20px 30px; line-height:30px; cursor:pointer; overflow:hidden
+}
+.main .db .three {
+	background-color:#523d89;height: 80px;width: 222px;margin: 13px auto 0px auto;display: block;padding:20px 30px;line-height:20px;cursor:pointer;padding: 20px 30px 20px 30px; overflow:hidden
+}
+.main .db .three:hover {
+	background-color:#808000;height: 80px;width: 222px;margin: 13px auto 0px auto;display: block;padding:20px 30px;line-height:20px;cursor:pointer;padding: 20px 30px 20px 30px;overflow:hidden
+}
+.main .middle {
+	float: left;height: 385px;width: 258px;margin-right: 13px;margin-left: 70px; overflow:hidden}
+.main .middle .one {
+	padding: 0px; background-color:#007a17;height: 150px;width: 198px;margin: 0px auto;display: block; padding:20px 30px; line-height:30px; cursor:pointer; overflow:hidden
+}
+.main .middle .one:hover {
+	padding: 0px; background-color:#003d0b;height: 150px;width: 198px;margin: 0px auto;display: block; padding:20px 30px; line-height:30px; cursor:pointer; overflow:hidden
+}
+.main .middle .two {
+	padding: 0px; background-color:#cf0000;height: 150px;width: 198px;margin: 13px 0px 0px 0px;display: block; padding:20px 30px; line-height:30px; cursor:pointer; overflow:hidden
+}
+.main .middle .two:hover {
+	padding: 0px; background-color:#ff6464;height: 150px;width: 198px;margin: 13px 0px 0px 0px;display: block; padding:20px 30px; line-height:30px; cursor:pointer; overflow:hidden
+}
+
+.main .right2 {
+	padding: 0px;float: right;height: 385px;width: 290px;margin: 0px auto;overflow:hidden
+}
+.main .right2 .one {
+	padding: 0px; background-color:#019eaf;height: 80px;width: 232px;margin: 0px auto;display: block; padding:20px 30px; line-height:20px; cursor:pointer; overflow:hidden
+}
+.main .right2 .one:hover {
+	padding: 0px; background-color:#004f57;height: 80px;width: 232px;margin: 0px auto;display: block; padding:20px 30px; line-height:20px; cursor:pointer; overflow:hidden
+}
+.main .right2 .two {
+	background-color:#e03100;height: 80px;width: 232px;margin: 13px 0px 0px 0px;display: block;padding:20px 30px;line-height:20px;cursor:pointer;padding: 20px 30px 20px 30px; overflow:hidden
+}
+.main .right2 .two:hover {
+	background-color:#701800;height: 80px;width: 232px;margin: 13px auto 0px auto;display: block;padding:20px 30px;line-height:20px;cursor:pointer;padding: 20px 30px 20px 30px;overflow:hidden
+}
+.main .right2 .three {
+	background-color:#73ac2d;height: 80px;width: 232px;margin: 13px 0px 0px 0px;display: block;padding:20px 30px;line-height:20px;cursor:pointer;padding: 20px 30px 20px 30px; overflow:hidden
+}
+.main .right2 .three:hover {
+	background-color:#299c9c;height: 80px;width: 232px;margin: 13px auto 0px auto;display: block;padding:20px 30px;line-height:20px;cursor:pointer;padding: 20px 30px 20px 30px;overflow:hidden
+}
+
+.user {
+	padding: 0px; background-color:#cc8888;height: 60px;width: 800px;margin: 0px 0px 0px 0px;display: block; padding:20px 30px; line-height:30px; cursor:pointer; overflow:hidden
+}
+.user:hover {
+	padding: 0px; background-color:#ff6464;height: 60px;width: 800px;margin: 0px 0px 0px 0px;display: block; padding:20px 30px; line-height:30px; cursor:pointer; overflow:hidden
+}
+
+.bottom {
+	height: 20px;width: 858px;padding: 0px;margin-bottom:40px;
+}

@@ -1,0 +1,7 @@
+16:54:23.712 -> begin date: 2015-05-12, thread ID: 0x98B4
+16:54:23.717 -> [98B4] [DEBUG ] CC Center Create success Object:0x01750428
+16:54:23.718 -> [98B4] [DEBUG ] TCCCenter::CreateConnObj AHost:(null), APort:0, APassword:(null), ConnObj:0x0176BCA0
+16:54:23.730 -> [98B4] [DEBUG ] TCCCenter::CreateQryObj, ConnObj:0x0176BCA0, QryObj:0x017C1658, RGConn:0x0183FD90
+16:54:27.552 -> [98B4] [DEBUG ] TCCCenter::DoChange Sender:0x017C1658, AOld:0x0176BCA0, ANew:0x00000000, Ret:0x00000000
+16:54:27.552 -> [98B4] [DEBUG ] TCCCenter::FreeQryObj, QryObj:0x017C1658
+16:54:27.553 -> [98B4] [DEBUG ] TCCCenter::FreeConnObj objConn:0x0176BCA0

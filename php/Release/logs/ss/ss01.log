@@ -1,0 +1,37 @@
+16:54:23.714 -> begin date: 2015-05-12, thread ID: 0x98B4
+16:54:23.735 -> [98B4] [DEBUG ] SSConnCreate Host:172.16.9.69, Port:22220, Pass:gbosStoreServer, ConnID:0x01400E50
+16:54:23.735 -> [98B4] [DEBUG ] Begin TSSConObj::Open(), FState:Inactive, FConnState:ccsInactive
+16:54:24.738 -> [98B4] [DEBUG ] End   TSSConObj::Open, FState:Opened, FConnState:ccsConnected, Ret:True
+16:54:24.738 -> [98B4] [DEBUG ] new a SSConnObj:0x0173F4C8
+16:54:24.738 -> [98B4] [DEBUG ] TSSConObjs::NewSSConObj AHost:172.16.9.69, APort:22220, APass:gbosStoreServer, ASvrID:2003, Ret:0x0173F4C8
+16:54:24.801 -> [98B4] [DEBUG ] SSConnCreate Host:172.16.9.104, Port:22220, Pass:gbosStoreServer, ConnID:0x0140CE48
+16:54:24.801 -> [98B4] [DEBUG ] Begin TSSConObj::Open(), FState:Inactive, FConnState:ccsInactive
+16:54:25.803 -> [98B4] [DEBUG ] End   TSSConObj::Open, FState:Opened, FConnState:ccsConnected, Ret:True
+16:54:25.803 -> [98B4] [DEBUG ] new a SSConnObj:0x0173F508
+16:54:25.803 -> [98B4] [DEBUG ] TSSConObjs::NewSSConObj AHost:172.16.9.104, APort:22220, APass:gbosStoreServer, ASvrID:2005, Ret:0x0173F508
+16:54:25.838 -> [98B4] [DEBUG ] TSSConObjs::NewSSConObj AHost:172.16.9.104, APort:22220, APass:gbosStoreServer, ASvrID:2005, Ret:0x0173F508
+16:54:25.879 -> [98B4] [DEBUG ] TSSConObjs::NewSSConObj AHost:172.16.9.104, APort:22220, APass:gbosStoreServer, ASvrID:2005, Ret:0x0173F508
+16:54:25.945 -> [98B4] [DEBUG ] TSSConObjs::NewSSConObj AHost:172.16.9.104, APort:22220, APass:gbosStoreServer, ASvrID:2005, Ret:0x0173F508
+16:54:26.059 -> [98B4] [DEBUG ] TSSConObjs::NewSSConObj AHost:172.16.9.104, APort:22220, APass:gbosStoreServer, ASvrID:2005, Ret:0x0173F508
+16:54:26.128 -> [98B4] [DEBUG ] TSSConObjs::NewSSConObj AHost:172.16.9.104, APort:22220, APass:gbosStoreServer, ASvrID:2005, Ret:0x0173F508
+16:54:26.192 -> [98B4] [DEBUG ] TSSConObjs::NewSSConObj AHost:172.16.9.104, APort:22220, APass:gbosStoreServer, ASvrID:2005, Ret:0x0173F508
+16:54:26.276 -> [98B4] [DEBUG ] TSSConObjs::NewSSConObj AHost:172.16.9.104, APort:22220, APass:gbosStoreServer, ASvrID:2005, Ret:0x0173F508
+16:54:26.335 -> [98B4] [DEBUG ] TSSConObjs::NewSSConObj AHost:172.16.9.104, APort:22220, APass:gbosStoreServer, ASvrID:2005, Ret:0x0173F508
+16:54:27.539 -> [98B4] [DEBUG ] SSID:2003 is no use , add to cache list.
+16:54:27.539 -> [98B4] [DEBUG ] TSSConObjs::DelSSConObj, SSID:2003, after delete  UseCount:1, CaseCount:1
+16:54:27.540 -> [98B4] [DEBUG ] TSSConObjs::DelSSConObj, SSID:2005, after delete  UseCount:1, CaseCount:1
+16:54:27.542 -> [98B4] [DEBUG ] TSSConObjs::DelSSConObj, SSID:2005, after delete  UseCount:1, CaseCount:1
+16:54:27.543 -> [98B4] [DEBUG ] TSSConObjs::DelSSConObj, SSID:2005, after delete  UseCount:1, CaseCount:1
+16:54:27.543 -> [98B4] [DEBUG ] TSSConObjs::DelSSConObj, SSID:2005, after delete  UseCount:1, CaseCount:1
+16:54:27.544 -> [98B4] [DEBUG ] TSSConObjs::DelSSConObj, SSID:2005, after delete  UseCount:1, CaseCount:1
+16:54:27.546 -> [98B4] [DEBUG ] TSSConObjs::DelSSConObj, SSID:2005, after delete  UseCount:1, CaseCount:1
+16:54:27.547 -> [98B4] [DEBUG ] TSSConObjs::DelSSConObj, SSID:2005, after delete  UseCount:1, CaseCount:1
+16:54:27.549 -> [98B4] [DEBUG ] TSSConObjs::DelSSConObj, SSID:2005, after delete  UseCount:1, CaseCount:1
+16:54:27.550 -> [98B4] [DEBUG ] SSID:2005 is no use , add to cache list.
+16:54:27.550 -> [98B4] [DEBUG ] TSSConObjs::DelSSConObj, SSID:2005, after delete  UseCount:0, CaseCount:2
+16:54:27.553 -> [98B4] [DEBUG ] begin TSSConObj::Close(), state:Opened, connState:ccsConnected
+16:54:27.554 -> [98B4] [DEBUG ] TSSConObj::DoClose, Refcount:0
+16:54:27.554 -> [98B4] [DEBUG ] end   TSSConObj::Close, state:Inactive, connState:ccsInactive
+16:54:27.554 -> [98B4] [DEBUG ] begin TSSConObj::Close(), state:Opened, connState:ccsConnected
+16:54:27.554 -> [98B4] [DEBUG ] TSSConObj::DoClose, Refcount:0
+16:54:27.554 -> [98B4] [DEBUG ] end   TSSConObj::Close, state:Inactive, connState:ccsInactive
